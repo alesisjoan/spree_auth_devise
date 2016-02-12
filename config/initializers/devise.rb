@@ -134,4 +134,5 @@ Devise.setup do |config|
   config.sign_out_via = :get
 
   config.case_insensitive_keys = [:email]
+  config.omniauth :twitter, 'gW9eV5SvhnJGoeR9UCiOo0ebe', '5mgLwqpQyRVlgdIHA19CYULYgCTjRQRQLEEida5VgHVs0lm40P', {:scope => 'offline_access,email'}
 end
