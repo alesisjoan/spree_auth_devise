@@ -135,4 +135,6 @@ Devise.setup do |config|
 
   config.case_insensitive_keys = [:email]
   config.omniauth :twitter, 'gW9eV5SvhnJGoeR9UCiOo0ebe', '5mgLwqpQyRVlgdIHA19CYULYgCTjRQRQLEEida5VgHVs0lm40P', {:scope => 'offline_access,email'}
+  config.omniauth :facebook, '543296382496713', '16bfeb7cae6f0264e6f9745344e3846a', {:scope => 'offline_access,email'}
+  config.omniauth :google_oauth2, '613103270982-1jlthq0um479fpcfeks5nrqbjl9k3q2j.apps.googleusercontent.com', 'WLCfzsXU3TccahXOnH12nGit', {:scope => 'offline_access,email'}
 end
